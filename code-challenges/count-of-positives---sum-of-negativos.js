@@ -1,4 +1,5 @@
 function countPositivesSumNegatives(input) {
+  if (!Array.isArray(input) || input.length === 0) return [];
   // your code here
   let sum = 0;
   let neg = 0;
